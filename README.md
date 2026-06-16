@@ -321,12 +321,6 @@ public class PlayerMovement3D : MonoBehaviour
         }
     }
 }
- 
-/*
-* REFERENCES
-* Character movement system - https://www.youtube.com/watch?v=jiyOZbKRfaY&t=395s
-*/
-
 
 Player collectibles script – “PlayerCollectiblesController.cs” WIP
 To allow the player to collect items in the world, this C# code was written. The code must be attached to the player prefab, and the code functions by waiting until the player enters a trigger, and compares the tag of the triggered object, if it matches the “Collectible” tag...!!!
